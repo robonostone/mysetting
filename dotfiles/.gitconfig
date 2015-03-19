@@ -1,0 +1,35 @@
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	grep = auto
+[alias]
+	ad = add
+	br = branch
+	bra = brancha
+	ci = commit
+	cia = commit -a
+	co = checkout
+	ft = fetch
+	gr = grep
+	grn = grep -n
+	sh = show
+	so = remote show origin
+	st = status
+	wc = whatchanged
+	la = log --pretty=\"format:%ad %h (%an): %s\" --date=short
+	oneline = log --pretty=oneline
+	# diff
+	d1 = diff HEAD~            # HEADから1つ前とdiff
+	d2 = diff HEAD~~           # HEADから2つ前とdiff
+	d3 = diff HEAD~~~          # HEADから3つ前とdiff
+	d4 = diff HEAD~~~~         # HEADから4つ前とdiff
+	d5 = diff HEAD~~~~~        # HEADから5つ前とdiff
+	d6 = diff HEAD~~~~~~       # HEADから6つ前とdiff
+	d7 = diff HEAD~~~~~~~      # HEADから7つ前とdiff
+	d8 = diff HEAD~~~~~~~~     # HEADから8つ前とdiff
+	d9 = diff HEAD~~~~~~~~~    # HEADから9つ前とdiff
+	d10 = diff HEAD~~~~~~~~~~  # HEADから10前とdiff
+	
